@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "812912150049",
+    "firebase_url": "https://clicknhelp-788e9.firebaseio.com",
+    "project_id": "clicknhelp-788e9",
+    "storage_bucket": "clicknhelp-788e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812912150049:android:b031c80d0634fcfaac8560",
+        "android_client_info": {
+          "package_name": "com.example.clicknhelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812912150049-o8l01b5hg7uleqne88i1h68h0n2fss74.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.clicknhelp",
+            "certificate_hash": "032c7470a2244d34b7136b29999c5b72eb67eb84"
+          }
+        },
+        {
+          "client_id": "812912150049-d4cgafnc7m48smaq70gtnbeqmnu85rs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYbYNdAD4LXeHq16eclEq9GMjbb0QdXNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812912150049-d4cgafnc7m48smaq70gtnbeqmnu85rs3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

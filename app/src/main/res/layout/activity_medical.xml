@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:text="HELPLINE NUMBERS"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:text="maharashtra helpline- 022-22694725"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:background="#CDDC39"
+        />
+
+</LinearLayout>

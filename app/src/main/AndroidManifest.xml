@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.clicknhelp">
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- this line adds the required permission request -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistrationActivity"></activity>
+        <activity android:name=".VerifyPhoneActivity"></activity>
+        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".FifthActivity"></activity>
+        <activity android:name=".ThirdActivity"></activity>
+        <activity android:name=".medicalActivity"></activity>
+        <activity android:name=".mpActivity"></activity>
+        <activity android:name=".upActivity"></activity>
+        <activity android:name=".gujrat"></activity>
+        <activity android:name=".karnataka"></activity>
+        <activity android:name=".kerala"></activity>
+        <activity android:name=".tn"></activity>
+        <activity android:name=".haryana"></activity>
+        <activity android:name=".rajasthan"></activity>
+        <activity android:name=".bihar"></activity>
+        <activity android:name=".telangana"></activity>
+        <activity android:name=".wb"></activity>
+        <activity android:name=".punjab"></activity>
+        <activity android:name=".delhi"></activity>
+        <activity android:name=".pondicherry"></activity>
+        <activity android:name=".arunachalp"></activity>
+        <activity android:name=".precautionsActivity"></activity>
+        <activity android:name=".selfassessmentActivity"></activity>
+        <activity android:name=".groceryActivity"></activity>
+        <activity android:name=".thankuActivity"></activity>
+
+
+    </application>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+</manifest>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:text="SELECT CITY/DISTRICT"
+        android:textSize="30dp" />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center">
+
+
+    <RadioButton
+        android:id="@+id/RB1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AKOLA" />
+
+
+    <RadioButton
+        android:id="@+id/RB2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AMRAVATI" />
+    <RadioButton
+        android:id="@+id/RB3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AURANGABAD" />
+    <RadioButton
+        android:id="@+id/RB4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHANDRAPUR" />
+    <RadioButton
+    android:id="@+id/RB5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="GONDIA" />
+    <RadioButton
+        android:id="@+id/RB6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAGPUR" />
+    <RadioButton
+        android:id="@+id/RB7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NASHIK" />
+    <RadioButton
+        android:id="@+id/RB8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PUNE" />
+    <RadioButton
+        android:id="@+id/RB9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MUMBAI" />
+    <RadioButton
+        android:id="@+id/RB10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SATARA" />
+    <RadioButton
+        android:id="@+id/RB11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YAVATMAL" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:text="CONTINUE"
+        android:background="#FFEB3B"/>
+</LinearLayout>
